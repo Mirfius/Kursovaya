@@ -62,7 +62,7 @@ function delactive1(button) {
 function ggg() {
 
     window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
-   alert("22222222222222222222222222222222222");
+   alert("3333333333333333333333333333333333333332");
 
     window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
    
