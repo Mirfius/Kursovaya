@@ -1,5 +1,14 @@
 "use strict";
 /* */
+
+ let answer = prompt("Вы умеете пользоваться vpn?     Напишите 'да' если умеете. "   , "");
+    if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
+        alert("Круто");
+        break;
+    }
+
+
+
 let button = document.querySelector(".red__button");  /*находим красную кнопку */
 let button1 = document.querySelector(".bad__button");  /*находим красную кнопку */
 button.addEventListener("click", event => {     /*всякий раз когда кликаем */
