@@ -1,9 +1,6 @@
 "use strict";
 while (true) {
-    window.location.href = 'file:///C:/html_project/kurs_root.html';
-    window.location = 'file:///C:/html_project/kurs_root.html';
-
-    return false;
+   
     let answer = prompt("Вы умеете пользоваться vpn?     Напишите 'да' если умеете. "   , "");
     if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
         alert("Круто");
@@ -11,13 +8,10 @@ while (true) {
     }
     else {
         alert("Изучите как пользоваться vpn.");
-        window.location.href = 'file:///C:/html_project/kurs_root.html';
-        window.location = 'file:///C:/html_project/kurs_root.html';
+        window.location.href = './kurs_root.html';
+    window.location = './kurs_root.html';
 
-        return false;
-        $('#someButton').click(function() {
-            window.location.href = '/some/new/page';
-            return false;
+    return false;
         });
     }
    
@@ -30,6 +24,10 @@ while (true) {
         break;
     }
     else {
-        alert("Изучите как пользоваться vpn.");
+        alert("Без согласия вы не попадете на эту страницу.");
+          window.location.href = './kurs_root.html';
+    window.location = './kurs_root.html';
+
+    return false;
     }
 }
