@@ -1,11 +1,7 @@
 "use strict";
 /* */
 
- let answer = prompt("Вы умеете пользоваться vpn?     Напишите 'да' если умеете. "   , "");
-    if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
-        alert("Круто");
-        break;
-    }
+
 
 
 
