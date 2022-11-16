@@ -288,6 +288,22 @@ f1{                               /*грид */
    
 }
 
+@media (max-width:500px) {
+    .header{
+        height: 120px;
+    }
+    .header0{
+        height: 120px;
+    }
+}
+
+
+
+
+
+
+
+
 /*Обнуление*/
 * {
     padding: 0;
