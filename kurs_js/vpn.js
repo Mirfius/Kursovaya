@@ -1,33 +1,35 @@
-"use strict";
 while (true) {
-   
-    let answer = prompt("Вы умеете пользоваться vpn?     Напишите 'да' если умеете. "   , "");
+    let answer = prompt("Желаете пройти регистрацию на сайте?", "");
     if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
         alert("Круто");
         break;
     }
     else {
-        alert("Изучите как пользоваться vpn.");
-        window.location.href = './kurs_root.html';
-    window.location = './kurs_root.html';
-
-    return false;
-        });
+        alert("Попробуй ещё раз");
     }
-   
 }
 
 while (true) {
-    let answer = prompt("Вы берете всю ответственность за использование контента из закрытых источников на себя?     Напишите 'да' если согласны. "   , "");
-    if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
-        alert("Круто");
+    let login = prompt("Введите ваш логин");
+    let password;
+    if ((login == "Админ" ) || (login == "админ")|| (login == "admin")) {
+        while(true){
+            password = prompt("Введите пароль");
+            if (!password) {
+                alert("Отменено");
+                break;
+            } else if (password == "1234") {
+                alert("Приветствую модератор!");
+                break;
+            } else {
+                alert("Неверный пароль");
+            }
+        }
         break;
-    }
-    else {
-        alert("Без согласия вы не попадете на эту страницу.");
-          window.location.href = './kurs_root.html';
-    window.location = './kurs_root.html';
-
-    return false;
+    } else if (!login) {
+        alert("Отменено");
+        break;
+    } else {
+        alert("Я вас не знаю");
     }
 }
