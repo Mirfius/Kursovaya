@@ -14,14 +14,14 @@
        
     }
     else {
-        alert("Попробуй ещё раз");
+        alert("Страница не откроется, если вы не дадите согласие.");
         ggg();
         
     }
         
     }
     else {
-        alert("Попробуй ещё раз");
+        alert("Сначала изучите VPN.");
         ggg();
        
     }
@@ -67,7 +67,7 @@ function delactive1(button) {
 function ggg() {
 
     window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
-   alert("4444444444444444444444444444444443333333332");
+   
 
     window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
    
