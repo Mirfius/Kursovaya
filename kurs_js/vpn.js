@@ -2,7 +2,7 @@
 /* */
 
 while (true) {
-    let answer = prompt("Желаете пройти регистрацию на сайте?", "");
+    let answer = prompt("Вы знакомы с vpn?    напишите 'да' если знакомы", "");
     if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
         alert("Круто");
         break;
@@ -13,7 +13,7 @@ while (true) {
 }
 
 while (true) {
-    let login = prompt("Введите ваш логин");
+    let login = prompt("Вы берете на себя ответственность за использование ресурсов из закртых источников и возможное нарушение авторского права? напишите 'да' если согласны");
     let password;
     if ((login == "Админ" ) || (login == "админ")|| (login == "admin")) {
         while(true){
