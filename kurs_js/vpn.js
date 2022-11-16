@@ -5,16 +5,10 @@
     if ((answer == "Да") || (answer == "да")|| (answer == "yes")) {
         alert("Круто");
         
-    }
-    else {
-        alert("Попробуй ещё раз");
-        ggg();
-       
-    }
-
-
-
-    let answer1 = prompt("Вы берете на себя ответственность за использование ресурсов из закртых источников и возможное нарушение авторского права? Напишите 'да' если согласны","");
+        
+        
+        
+         let answer1 = prompt("Вы берете на себя ответственность за использование ресурсов из закртых источников и возможное нарушение авторского права? Напишите 'да' если согласны","");
     if ((answer1 == "Да") || (answer1 == "да")|| (answer1 == "yes")) {
         alert("Круто");
        
@@ -24,6 +18,17 @@
         ggg();
         
     }
+        
+    }
+    else {
+        alert("Попробуй ещё раз");
+        ggg();
+       
+    }
+
+
+
+   
 
 
 
@@ -62,7 +67,7 @@ function delactive1(button) {
 function ggg() {
 
     window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
-   alert("3333333333333333333333333333333333333332");
+   alert("4444444444444444444444444444444443333333332");
 
     window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
    
