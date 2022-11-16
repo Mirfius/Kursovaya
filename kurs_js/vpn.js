@@ -9,11 +9,7 @@ while (true) {
     }
     else {
         alert("Сначала ознакомьтесь с VPN");
-        // similar behavior as an HTTP redirect
-window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
-
-// similar behavior as clicking on a link
-window.location.href = "https://mirfius.github.io/Kursovaya/kurs_root.html";
+      ggg();
     }
 }
 
@@ -25,11 +21,7 @@ while (true) {
     }
     else {
         alert("Без вашего согласия страница не откроется");
-                // similar behavior as an HTTP redirect
-window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
-
-// similar behavior as clicking on a link
-window.location.href = "https://mirfius.github.io/Kursovaya/kurs_root.html";
+               ggg();
     }
 }
 
@@ -67,6 +59,15 @@ function delactive1(button) {
     button.style.color = "aliceblue";
     button.classList.remove("active");
   }
+function ggg() {
 
+    window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
+   alert("22222222222222222222222222222222222");
+
+    window.location.replace("https://mirfius.github.io/Kursovaya/kurs_root.html");
+   
+ 
+    
+  }
 
 
